@@ -1,22 +1,26 @@
-name: Your New Jekyll Site
-description: Blogging about stuffs
+name: Mathias Köhnke
+description: Hi, I’m Mathias. I'm a Software Engineer mainly focused on software development on Apple platforms. <a href="/about">More about me.</a> #I'm Mathias Köhnke. I build iOS apps, such as <a href="http://teleshoot.co">Teleshoot</a>. I am always learning and this is where I make notes about it. You can find me on <a href="http://github.com/mkoehnke">Github</a> and <a href="http://twitter.com/mkoehnke">Twitter</a>. More <a href="/about">about me</a>.
 meta_description: "Your New Jekyll Site, Blogging about stuffs"
 
 aboutPage: true
 
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+#highlighter: rouge
 
-paginate: 20
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+paginate: 5
 baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+domain_name: 'http://matlog.de'
+google_analytics: 'UA-1920633-2'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://your-blog-url.example.com'
-author:         'Your Name'
-authorTwitter:  'YourTwitterUsername'
+url:            'http://matlog.de'
+author:         'Mathias Köhnke'
+authorTwitter:  '@mkoehnke'
 
 permalink:       /:year/:title/
 
@@ -33,3 +37,5 @@ defaults:
             type: posts
         values:
             layout: post
+
+gems:     [jekyll-paginate]

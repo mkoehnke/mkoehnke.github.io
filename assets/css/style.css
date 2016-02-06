@@ -43,7 +43,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 .icon-facebook-rect:before { content: '\e803'; }
 
 /* Spacing */
-.post h1, h3, h4, h5, p, .post-body ul, #post-list li, pre {
+.post h1, h2, h3, h4, h5, p, .post-body ul, #post-list li, pre {
 margin-bottom: 20px;
 }
 
@@ -291,15 +291,26 @@ hr {
 	background: #eee;
 }
 
+
+code, span.code {
+  font-family:Menlo, Monaco, Courier;
+   font-size:14px;
+}
+
+span.code {  background-color:#EEE; }
+
+pre	{ font-family:Menlo, Monaco, Courier; border: 1px solid #ddd; padding:20px;
+background-color:#fdfdfd; font-size:14px;  overflow:scroll; border-radius: 3px;
+}
+
+/*
 span.code { font-family:Menlo, Monaco, Courier; background-color:#EEE; font-size:14px; }
 
 pre	{
 	font-family:Menlo, Monaco, Courier;
 	white-space:pre-wrap;
-	/*border: 1px solid #ddd;*/
 	padding:20px;
 	background-color:#fdfdfd;
-	/*font-size:14px;*/
 	overflow:auto;
 	border-radius: 3px;
 	background: #272b2d;
@@ -308,8 +319,8 @@ pre	{
 	  line-height: 1.5em;
 	  font-weight: 500;
 	color: #d0d4d7;
-
 }
+*/
 
 table {
 	width: 100%;
