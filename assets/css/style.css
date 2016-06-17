@@ -57,6 +57,11 @@ body {
 	text-rendering: optimizeLegibility;
 }
 
+sup { 
+    vertical-align: super;
+    font-size: smaller;
+}
+
 h1 {
 	font-size: 30px;
 	letter-spacing: -1px;
