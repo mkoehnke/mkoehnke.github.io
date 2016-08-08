@@ -14,7 +14,7 @@ kramdown:
 paginate: 5
 baseurl: /
 domain_name: 'http://matlog.de'
-google_analytics: 'UA-1920633-2'
+google_analytics: 'UA-1920633-3'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
