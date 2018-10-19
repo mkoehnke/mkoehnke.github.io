@@ -13,12 +13,12 @@ kramdown:
 
 paginate: 5
 baseurl: /
-domain_name: 'http://matlog.de'
+domain_name: 'https://mathiaskoehnke.de'
 google_analytics: 'UA-1920633-3'
 disqus_shortname: 'your-disqus-shortname'
 
 # Details for the RSS feed generator
-url:            'http://matlog.de'
+url:            'https://mathiaskoehnke.de'
 author:         'Mathias Köhnke'
 authorTwitter:  '@mkoehnke'
 

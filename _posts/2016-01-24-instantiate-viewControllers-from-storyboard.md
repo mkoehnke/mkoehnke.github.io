@@ -40,7 +40,7 @@ enum Storyboard : String {
 
 But before one can use any of this, the ViewController that is supposed to be instantiated, must have a _Storyboard ID_. This property can be changed in the _Identity Inspector_:
 
-![My helpful screenshot]({{ site.baseurl }}assets/images/storyboard-id.png)
+![My helpful screenshot](/assets/images/storyboard-id.png)
 
 If the __Storyboard ID matches the ViewController class name__, you can instantiate with the following line:
 
